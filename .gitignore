@@ -1,0 +1,30 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Node dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Editor and operating system files
+.DS_Store
+.vscode/
+.idea/
+
+# Logs
+*.log
